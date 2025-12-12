@@ -1,0 +1,14 @@
+{
+  "name": "다조 PCB 수리 (전체 초기화)",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "boot.bin", "offset": 4096 },
+        { "path": "part.bin", "offset": 32768 },
+        { "path": "firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
